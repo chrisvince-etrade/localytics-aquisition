@@ -7,5 +7,5 @@
 
 To download:
 1. In Localytics In-App Builder, click “Download Zip” (top-right)
-2. Unzip the folder and copy the icons and fonts folders to the folder downloaded from Localytics
+2. Unzip the folder and copy the CONTENTS of the icons and fonts folders into the folder downloaded from Localytics
 3. Open index.html

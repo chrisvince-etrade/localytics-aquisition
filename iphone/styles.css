@@ -174,8 +174,8 @@
 
 @font-face {
   font-family: "ETradeFort";
-  src: url("fonts/ETradeFort-Book.woff");
-  src: url("fonts/ETradeFort-Book.woff?#iefix") format("embedded-opentype"), url("fonts/ETradeFort-Book.woff") format("woff"), url("fonts/ETradeFort-Book.ttf") format("truetype"), url("fonts/ETradeFort-Book.otf") format("opentype");
+  src: url("ETradeFort-Book.woff");
+  src: url("ETradeFort-Book.woff?#iefix") format("embedded-opentype"), url("ETradeFort-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
