@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="200px" viewBox="0 0 113 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acquisition---02" transform="translate(-131.000000, -50.000000)" fill="#6633CC">
+            <g id="icon_02" transform="translate(131.000000, 50.000000)">
+                <polygon id="Fill-166" points="22 144 26 144 26 58 22 58"></polygon>
+                <polygon id="Fill-167" points="44 144 48 144 48 36 44 36"></polygon>
+                <polygon id="Fill-168" points="65 144 69 144 69 90 65 90"></polygon>
+                <polygon id="Fill-169" points="87 144 91 144 91 68 87 68"></polygon>
+                <polygon id="Fill-170" points="2 167 110 167 110 163 2 163"></polygon>
+                <polygon id="Fill-171" points="46 183 68 183 68 179 46 179"></polygon>
+                <path d="M12.6666667,4.0201005 C7.887,4.0201005 4,7.91297396 4,12.699863 L4,186.295112 C4,191.082001 7.887,194.974874 12.6666667,194.974874 L99.3333333,194.974874 C104.113,194.974874 108,191.082001 108,186.295112 L108,12.699863 C108,7.91297396 104.113,4.0201005 99.3333333,4.0201005 L12.6666667,4.0201005 Z M99.9615385,200 L13.0384615,200 C5.84775,200 0,194.15 0,186.956522 L0,13.0434783 C0,5.85 5.84775,0 13.0384615,0 L99.9615385,0 C107.15225,0 113,5.85 113,13.0434783 L113,186.956522 C113,194.15 107.15225,200 99.9615385,200 Z" id="Fill-172"></path>
+            </g>
+        </g>
+    </g>
+</svg>
