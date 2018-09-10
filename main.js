@@ -1,4 +1,6 @@
-/*!
+
+    (function() {
+      /*!
  * Flickity PACKAGED v2.1.2
  * Touch, responsive, flickable carousels
  *
@@ -20,24 +22,35 @@ var flkty = new Flickity( '.carousel', {
   friction: 0.8
 });
 
+window.onresize = () => {
+	flkty.resize()
+};
+
 flkty.on( 'change', ( index ) => {
   let icon = document.querySelector(`#carousel-cell-${index} .icon`);
-  if(!icon.classList.contains('run') && icon.classList.contains('animated')) {
-    runImageAnimation(icon, index);
+  let delay;
+  if(index === 2) {
+    delay = 400;
+  } else {
+    delay = 200
+  }
+  if(!icon.classList.contains('run')) {
+    runImageAnimation(icon, index, delay);
   }
 });
 
 window.onload = () => {
   let icon = document.querySelector('#carousel-cell-0 .icon');
-  if (icon.classList.contains('animated')) {
-    runImageAnimation(icon, 0, 600)
-  }
+  runImageAnimation(icon, 0, 400)
 }
 
 const runImageAnimation = (iconElement, carouselIndex, delay = 300) => {
   let imgNumber = carouselIndex + 1;
-  iconElement.classList.add('run');
+  
   setTimeout(() => {
-    // animate icon here
+  	iconElement.classList.add('run');
+    iconElement.src = 'icon_' + imgNumber + '_a.gif';
   }, delay)
 }
+    })();
+  
